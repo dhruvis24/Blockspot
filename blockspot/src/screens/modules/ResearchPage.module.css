@@ -1,0 +1,23 @@
+.parentResearch {
+    width: 86vw;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 26px;
+}
+
+.researchBoxes {
+    display: grid;
+    align-items: center;
+    column-gap: 80px;
+    row-gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.rIcon {
+    width: 32px;
+}

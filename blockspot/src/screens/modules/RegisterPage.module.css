@@ -1,0 +1,14 @@
+.button {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05em;
+    width: 170px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}

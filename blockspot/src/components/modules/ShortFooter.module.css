@@ -1,0 +1,9 @@
+.mainFooter {
+    width: 85vw;
+    height: 200px;
+    background-color: #1C202B;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

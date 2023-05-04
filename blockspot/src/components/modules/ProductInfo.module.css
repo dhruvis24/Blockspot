@@ -1,0 +1,12 @@
+.up {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.secTag {
+    cursor: pointer;
+}

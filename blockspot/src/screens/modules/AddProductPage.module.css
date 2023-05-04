@@ -1,0 +1,106 @@
+.parentAdder {
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.adder {
+    background-color: #0D0F13;
+    width: 60%;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    padding-bottom: 70px;
+}
+
+.oneFill {
+    width: 60%;
+    min-width: 450px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.oneFill label {
+    margin-left: 5px;
+    font-weight: 600;
+    color: #CECECE;
+}
+
+.oneFill input, .oneFill textarea, .dropdown {
+    width: 90%;
+    border-radius: 20px;
+    background-color: #FAF8F8;
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-left: 12px;
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.oneFill input {
+    height: 48px;
+}
+
+.oneFill textarea {
+    resize: none;
+    height: 220px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-left: 60%;
+    width: 30%;
+    min-width: 135px;
+    height: 54px;
+    font-size: 1.45em;
+    font-weight: 800;
+    border-radius: 16px;
+    background-color: #38B6FF;
+}
+
+.selectFields {
+    color: white;
+    background-color: #0D0F13;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2em;
+    width: 120px;
+    padding-top: 5px;
+    border: none;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.selectFields:hover {
+    background-color: #626262;
+}
+
+.button {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.02em;
+    width: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}

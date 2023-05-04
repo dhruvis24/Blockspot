@@ -1,0 +1,45 @@
+.mainBox {
+    display: flex;
+    width: 115%;
+    min-width: 280px;
+    max-width: 350px;
+    background-color: #1C202B;
+    height: 375px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 0px -1px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 0px -1px rgba(255,255,255,1);
+    box-shadow: 10px 10px 0px -1px rgba(255,255,255,1);
+}
+
+.innerBox {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: 230px;
+    width: 82%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.firstImage {
+    width: 240px;
+    /* max-width: 98%; */
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: -5px;
+}
+
+.submit {
+    width: 35%;
+    min-width: 135px;
+    height: 45px;
+    font-size: 1.05em;
+    font-weight: 800;
+    border-radius: 16px;
+    border: none;
+    background-color: #38B6FF;
+}

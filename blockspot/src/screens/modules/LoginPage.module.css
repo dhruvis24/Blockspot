@@ -1,0 +1,60 @@
+.parentAdder {
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.adder {
+    background-color: #0D0F13;
+    width: 38%;
+    min-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.oneFill {
+    width: 48%;
+    min-width: 420px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.oneFill label {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #CECECE;
+    font-size: 1.02em;
+}
+
+.oneFill input  {
+    width: 95%;
+    border-radius: 20px;
+    background-color: #FAF8F8;
+    font-size: 1.15em;
+    font-weight: 800;
+    padding-left: 12px;
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    height: 45px;
+}
+
+.outOption {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    user-select: none;
+}
+
+.inOption {
+    display: flex;
+}
